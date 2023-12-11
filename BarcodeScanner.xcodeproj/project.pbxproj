@@ -41,6 +41,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF8378232B26F0D300885F6B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BF8378242B26F0E100885F6B /* BarcodeScanner */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BF8378242B26F0E100885F6B /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F3BE22B15FD60000793A8 /* BarcodeScannerView.swift */,
+				BF83781F2B26E84800885F6B /* BarcodeScannerViewModel.swift */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		BF8378252B26F10200885F6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF8378262B26F10B00885F6B /* UIKit Componets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF8378262B26F10B00885F6B /* UIKit Componets */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F3BEF2B1601A7000793A8 /* ScannerVS.swift */,
+				BF83E9DD2B16F832008C2CC2 /* ScannerView.swift */,
+			);
+			path = "UIKit Componets";
+			sourceTree = "<group>";
+		};
+		BF8378272B26F14000885F6B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BF8378212B26E8BB00885F6B /* Alert.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		BF9F3BD42B15FD60000793A8 = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +102,11 @@
 		BF9F3BDF2B15FD60000793A8 /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				BF8378232B26F0D300885F6B /* Screens */,
+				BF8378252B26F10200885F6B /* Views */,
 				BF9F3BEE2B160093000793A8 /* Info.plist */,
 				BF9F3BE02B15FD60000793A8 /* BarcodeScannerApp.swift */,
-				BF9F3BE22B15FD60000793A8 /* BarcodeScannerView.swift */,
-				BF9F3BEF2B1601A7000793A8 /* ScannerVS.swift */,
-				BF83781F2B26E84800885F6B /* BarcodeScannerViewModel.swift */,
-				BF8378212B26E8BB00885F6B /* Alert.swift */,
-				BF83E9DD2B16F832008C2CC2 /* ScannerView.swift */,
+				BF8378272B26F14000885F6B /* Utilities */,
 				BF9F3BE42B15FD62000793A8 /* Assets.xcassets */,
 				BF9F3BE62B15FD62000793A8 /* Preview Content */,
 			);
